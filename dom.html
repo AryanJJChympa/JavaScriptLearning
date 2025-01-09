@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body id="bodyy">
+    <h1 id="title">Hello I AM Aryan AKA Astro</h1>
+    <p class="para">Lorem ipsum dolor sit amet.</p>
+    <p class="para">Lorem ipsum dolor sit amet.</p>
+    <p class="para">Lorem ipsum dolor sit amet.</p>
+    <p class="para">Lorem ipsum dolor sit amet.</p>
+
+
+    <script>
+        const element=document.getElementById("title")
+        element.style.color="#00008B"
+
+        document.getElementById("bodyy").style.backgroundColor="#008B8B"
+
+        document.querySelector("p").style.color="white"
+
+        const nodeList= document.querySelectorAll(".para");
+        nodeList[0].style.backgroundColor = "red";
+    </script>
+</body>
+</html>
